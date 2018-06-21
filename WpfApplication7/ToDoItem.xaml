@@ -11,6 +11,6 @@
         <!-- 輸入框 -->
         <TextBox x:Name="Date" Grid.Column="1" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="50" Foreground="LightGray" Margin="20 0" TextAlignment="Right" FontSize="17"  BorderThickness="0">00/00</TextBox>
         <TextBox x:Name="ItemNameTb" Grid.Column="1" VerticalContentAlignment="Center" BorderThickness="0" Width="100" FontSize="23" Foreground="Gray" HorizontalAlignment="Left" Margin="80 0 0 0">New Task</TextBox>
-        <TextBox x:Name="Money" Grid.Column="1" VerticalContentAlignment="Center" HorizontalAlignment="Right" Width="100" Foreground="#97C6C8" Margin="25 0" TextAlignment="Right" FontSize="25"  BorderThickness="0">000</TextBox>
+        <TextBox x:Name="Money" Grid.Column="1" VerticalContentAlignment="Center" HorizontalAlignment="Right" Width="100" Foreground="#97C6C8" Margin="25 0" TextAlignment="Right" FontSize="25"  BorderThickness="0" TextChanged="Money_TextChanged">000</TextBox>
     </Grid>
 </UserControl>

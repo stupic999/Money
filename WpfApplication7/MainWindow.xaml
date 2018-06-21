@@ -32,6 +32,6 @@
             </Button>
         </StackPanel>
         <TextBlock HorizontalAlignment="Right" Grid.Row="2" FontSize="15" Foreground="White" Margin="20 10">總支出</TextBlock>
-        <TextBlock HorizontalAlignment="Right" Grid.Row="2" FontSize="40" Foreground="White" Margin="0 25 20 0">2990</TextBlock>
+        <TextBlock HorizontalAlignment="Right" Grid.Row="2" FontSize="40" Foreground="White" Margin="0 25 20 0" x:Name="total" MouseDown="sum_MouseDown">2990</TextBlock>
     </Grid>
 </Window>

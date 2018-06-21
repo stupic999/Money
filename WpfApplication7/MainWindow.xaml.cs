@@ -73,5 +73,15 @@ namespace WpfApplication7
                 ToDoList.Children.Add(item);
             }
         }
+
+        private void sum_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            int sum = 0;
+            foreach(ToDoItem item in ToDoList.Children)
+            {
+                sum += int.Parse(item.Money.Text);
+                total.Text = sum.ToString();
+            }
+        }
     }
 }
